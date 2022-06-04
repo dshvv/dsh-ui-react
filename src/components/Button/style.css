@@ -1,0 +1,13 @@
+.DshBtn {
+  border-color: #1890ff;
+  background-color: #1890ff;
+  border-radius: 2px;
+  color: white;
+  padding: 6px;
+  min-width: 80px;
+  letter-spacing: 1px;
+}
+
+.DshBtn:hover{
+    cursor: pointer;
+}

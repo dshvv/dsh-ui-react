@@ -1,0 +1,38 @@
+{
+  "name": "dsh-ui-react",
+  "version": "0.0.1-beta.1",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^16.11.38",
+    "@types/react": "^18.0.11",
+    "@types/react-dom": "^18.0.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "toast-react-yan": "^1.0.2",
+    "typescript": "^4.7.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lib": "react-scripts build --target lib"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
